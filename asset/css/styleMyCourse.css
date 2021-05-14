@@ -1,0 +1,165 @@
+*{
+    font-family: Montserrat;
+}
+
+body.bg-dark {
+    color: #dee2e6;
+}
+
+.course .course-content {
+    margin: 1rem;
+}
+
+.bg-course-dark {
+    background: rgba(255, 255, 255, .15);
+}
+
+.bg-custom{
+    background: #7D97F4;
+    border-color: #7D97F4;
+}
+
+.bg-outline-custom{
+    border-color: #7D97F4;
+}
+
+button{
+    margin-top: 30px;
+}
+
+
+@media (max-width:991.98px) {
+    .course .course-content {
+        margin: 0;
+        margin-bottom: 1rem;
+    }
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Monsterrat';
+}
+
+header {
+    position: fixed;
+    background: #426ff5;
+    padding: 0px;
+    width: 100%;
+    height: 50px;
+}
+
+
+.btn:hover{
+    background-color: #7D97F4;
+    color: white;
+}
+
+.logout_btn hover {
+    background: #fff;
+}
+
+    .profil{
+        text-align: center;
+    }
+
+    .sidebar {
+        background: #7D97F4;
+        margin-top: 0px;
+        padding-top: 20px;
+        position: fixed;
+        left: 0;
+        width: 250px;
+        height: 100%;
+        transition: 0.5s;
+        transition-property: left;
+    }
+    
+    .sidebar .profile_img {
+        width: 100px;
+        height: 100px;
+        border-radius: 100px;
+        margin-bottom: 10px;
+    }
+    
+    .sidebar h3 p {
+        color: #fff;
+        margin-top: 0;
+        margin-bottom: 20px;
+    }
+    
+    .sidebar a {
+        color: #ffff;
+        display: block;
+        width: 100%;
+        line-height: 60px;
+        text-decoration: none;
+        padding-left: 40px;
+        box-sizing: border-box;
+        transition: 0.5s;
+        transition-property: background;
+    }
+    
+    .sidebar a:hover {
+        background: #93abff;
+    }
+    
+    .sidebar i {
+        padding: 10px;
+    }
+
+    .container .d-flex .sidebar .profil h3 {
+        color: #fff;
+        font-size: x-large;
+        font: bold;
+    }
+    
+    
+    .container .d-flex .sidebar .profil p {
+        font-size: smaller;
+        color: #fff;
+    }
+
+
+    .maintag{
+        background :royalblue !important;
+    }
+
+
+@media (min-width:991.98px) {
+    .content {
+        justify-content: center;
+        margin-left: 400px;
+        margin-right: 200px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+}
+
+
+@media (max-width:991.98px) {
+    .content {
+        justify-content: center;
+        margin-left: 200px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+}
+
+.card{
+    text-decoration: none;
+    box-shadow: 0px 6px 20px rgb(202, 202, 202);
+    transition: all 0.1s cubic-bezier(.25, .8, .25, .1);
+}
+
+.card:hover{
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    animation-name: example;
+    animation-duration: 0.25s;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(38, 38, 38, 0.22);
+}
+
+.card a{
+    text-decoration: none;
+}
