@@ -145,3 +145,11 @@ input[type=text], input[type=password]{
     margin-left: 2px;
     font-weight: 600;
 }
+
+.select-custom{
+    border: none;
+}
+
+.select-custom:focus{
+    outline: white;
+}
